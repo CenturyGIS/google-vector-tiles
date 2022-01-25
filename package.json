@@ -1,5 +1,5 @@
 {
-  "name": "@CenturyGIS/google-vector-tiles",
+  "name": "@centurygis/google-vector-tiles",
   "version": "0.1.0",
   "private": true,
   "description": "A library to render vector tiles in Google Maps.",
