@@ -1,3 +1,7 @@
+### Note: This is a work in progress. Do not use in production!
+
+---
+
 ### Development Notes
 
 - The Protobuf IIFE has been removed in favor of installing the Node modules from https://github.com/protobufjs/protobuf.js
