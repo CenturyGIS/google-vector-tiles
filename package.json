@@ -1,0 +1,46 @@
+{
+  "name": "@centurygis/google-vector-tiles",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A library to render vector tiles in Google Maps.",
+  "engines": {
+    "node": ">=12.10.0"
+  },
+  "main": "dist/google-vector-tiles.cjs.js",
+  "module": "dist/google-vector-tiles.esm.js",
+  "browser": "dist/google-vector-tiles.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm run build",
+    "lint": "eslint --fix src/**"
+  },
+  "keywords": [
+    "spatial",
+    "vector",
+    "tiles",
+    "map",
+    "google"
+  ],
+  "author": "Anne Canoune",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "rollup": "^2.66.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {
+    "pbf": "^3.2.1",
+    "vector-tile": "^1.3.0"
+  }
+}
